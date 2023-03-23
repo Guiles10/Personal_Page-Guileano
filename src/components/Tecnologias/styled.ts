@@ -5,9 +5,11 @@ export const StyledTech = styled.section`
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 100px 15px;
+    padding: 150px 15px;
     background-color: var(--color-grey-3);
     border-bottom: 2px solid var(--color-blue);
+
+    
 
     .container {
         width: 100%;
@@ -27,6 +29,8 @@ export const StyledTech = styled.section`
         flex-direction: column;
         justify-content: center;
         box-shadow: 0px 0px 10px 5px var(--color-blue);
+        }
+    .card:hover {
     }
 
     img{

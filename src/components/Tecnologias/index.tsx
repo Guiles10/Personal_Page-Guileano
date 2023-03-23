@@ -12,10 +12,10 @@ import GitHub from '../../assets/git hub.jpg'
 import EXPRESS from '../../assets/express.png'
 import PSQL from '../../assets/postegree sql.png'
 
-export const Tecnologias = () => {
+export const Tecnologias = ({ techRef }: any) => {
     
     return(
-        <StyledTech id='tech'>
+        <StyledTech id='tech' ref={techRef}>
             <div className="container">
                 <div className="card">
                     <img src={PSQL} alt="" />

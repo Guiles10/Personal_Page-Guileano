@@ -1,9 +1,9 @@
 import { StyledSobre } from "./styled"
 
-export const Sobre = () => {
+export const Sobre = ({ sobreRef }: any) => {
     
     return(
-        <StyledSobre id='sobre'>
+        <StyledSobre id='sobre' ref={sobreRef}>
             <div>
                 <p>Me chamo Guileano Gadea de Mello tambem atendo pelo apelido Guiles, tenho 30 anos. Sempre gostei muito de jogos online, aos 15/16 anos desenvolvia servidores bem simples do jogo Tibia junto com amigos. Sempre gostei muito da área de programação, software, hardware, porém acabei me formando em zootecnia pela Universidade Federal de Santa Maria, (opção na minha cidade) aprendi e me desenvolvi muito, porém não era o que eu gostaria de seguir profissionalmente.</p>
                 <p>A cerca de 2 anos resolvi migrar de area e me dedicar 100% a programação neste periodo conheci a <a href="https://kenzie.com.br/?utm_term=kwd-84045013191765:loc-20&utm_campaign=BING-INSC-PER-2023-TERMOS-MARCA-SEARCH&utm_source=bing&utm_medium=ppc&hsa_cam=428099731&hsa_grp=1344704077201117&hsa_ad=84044198922709&hsa_src=o&msclkid=99a85859865f1408009c3c514d89b37c&utm_content=Kenzie%20Academy">Kenzie Academy Brasil</a>, onde comecei a cursar para me tornar um Desenvolvedor Full Stack.</p>

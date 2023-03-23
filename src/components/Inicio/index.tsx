@@ -4,10 +4,10 @@ import { BsGithub } from 'react-icons/bs';
 import { HiOutlineMailOpen } from 'react-icons/hi';
 import { AiOutlineFileText } from 'react-icons/ai';
 
-export const Inicio = () => {
+export const Inicio = ({ inicioRef }: any) => {
     
     return(
-        <StyledInicio id='inicio'>
+        <StyledInicio id='inicio' ref={inicioRef}>
             <div className='container'>
                 <div className='info'>
                     <p>{' `${ Olá, me chamo '}</p>

@@ -5,18 +5,32 @@ import { Portifolio } from './components/Protifolio'
 import { Sobre } from './components/Sobre'
 import { Tecnologias } from './components/Tecnologias'
 import { StyledGlobal } from './globalStyle'
+import { useRef } from 'react'
 
 
 function App() {
+
+  const inicioRef = useRef(null);
+  const sobreRef = useRef(null);
+  const techRef= useRef(null);
+  const portifolioRef = useRef(null);
+
+  const handleClick = (ref: any) => {
+    window.scrollTo({
+        top: ref.current.offsetTop,
+        behavior: 'smooth'
+    });
+  };
+
   return (
     <>
       <main>
         <StyledGlobal />
-        <Header />
-        <Inicio />
-        <Sobre />
-        <Tecnologias />
-        <Portifolio />
+        <Header handleClick={handleClick} inicioRef={inicioRef} sobreRef={sobreRef} techRef={techRef} portifolioRef={portifolioRef}/>
+        <Inicio inicioRef={inicioRef}/>
+        <Sobre sobreRef={sobreRef}/>
+        <Tecnologias techRef={techRef}/>
+        <Portifolio portifolioRef={portifolioRef}/>
         <Footer />
       </main>
     </>

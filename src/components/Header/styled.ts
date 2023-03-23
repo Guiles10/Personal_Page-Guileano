@@ -17,7 +17,6 @@ export const StyledHeader = styled.section`
     align-items: center;
     position: fixed;
 
-
     .logo{
         color: var(--color-grey-0);
         width: 28%;
@@ -43,6 +42,7 @@ export const StyledHeader = styled.section`
         text-decoration: none;
         background-color: var(--color-grey-3);
         border: none;
+        scroll-behavior: smooth;
     }
     .navDesktop > ul > li > a:hover{
         font-size: 16px;
@@ -104,6 +104,7 @@ export const StyledHeader = styled.section`
             text-decoration: none;
             background-color: var(--color-grey-2);
             border: none;
+            scroll-behavior: smooth;
         }
         .navMobile > ul > li > a:hover{
             font-size: 18px;

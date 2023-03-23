@@ -5,10 +5,10 @@ import KenzieHub from '../../assets/Kenzie Hub.png'
 import NuKenzie from '../../assets/Nu Kenzie.png'
 import SearchAPI from '../../assets/Search API.png'
 
-export const Portifolio = () => {
+export const Portifolio = ({ portifolioRef }: any) => {
     
     return(
-        <StyledPortifolio id='portifolio'>
+        <StyledPortifolio id='portifolio' ref={portifolioRef}>
             <div className="container">
                 <div className="card">
                     <img src={Hamburgueria} alt="" />
