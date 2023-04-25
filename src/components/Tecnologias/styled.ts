@@ -28,9 +28,10 @@ export const StyledTech = styled.section`
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        box-shadow: 0px 0px 10px 5px var(--color-blue);
-        }
+        box-shadow: 0px 0px 2px 1px var(--color-blue);
+    }
     .card:hover {
+        box-shadow: 0px 0px 15px 5px var(--color-blue);
     }
 
     img{
