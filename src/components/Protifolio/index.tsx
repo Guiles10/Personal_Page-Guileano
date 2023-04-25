@@ -4,6 +4,7 @@ import Hamburgueria from '../../assets/Hamburgueria 2.0.png'
 import KenzieHub from '../../assets/Kenzie Hub.png'
 import NuKenzie from '../../assets/Nu Kenzie.png'
 import SearchAPI from '../../assets/Search API.png'
+import BANDKAMP from '../../assets/bandkamp.png'
 
 export const Portifolio = ({ portifolioRef }: any) => {
     
@@ -40,6 +41,14 @@ export const Portifolio = ({ portifolioRef }: any) => {
                         <p>Search API</p>
                         <a href="http://project-front-end-group06-nicole-blvu1aa4f-guiles10.vercel.app" target="_blank" rel="noopener noreferrer">Vercel</a>
                         <a href="https://github.com/Grupo06-Nocile/project-front-end-group06-Nicole" target="_blank" rel="noopener noreferrer">Git Hub</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={BANDKAMP} alt="" />
+                    <div className="links">
+                        <p>DB - Band Kamp</p>
+                        <a href="https://m5-bandkamp-j8ij.onrender.com/api/docs/swagger/" target="_blank" rel="noopener noreferrer">Doc/Swagger</a>
+                        <a href="https://github.com/Guiles10/m5-bandkamp-generic-view-Guiles10" target="_blank" rel="noopener noreferrer">Git Hub</a>
                     </div>
                 </div>
             </div>

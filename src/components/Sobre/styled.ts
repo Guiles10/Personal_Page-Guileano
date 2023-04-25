@@ -19,6 +19,7 @@ export const StyledSobre = styled.section`
         font-weight: 400;
         font-family: Aboreto;
         margin-bottom: 20px;
+        text-align: justify;
 
     }
     a {

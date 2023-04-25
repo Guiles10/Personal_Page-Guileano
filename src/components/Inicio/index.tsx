@@ -10,9 +10,9 @@ export const Inicio = ({ inicioRef }: any) => {
         <StyledInicio id='inicio' ref={inicioRef}>
             <div className='container'>
                 <div className='info'>
-                    <p>{' `${ Olá, me chamo '}</p>
-                    <h1>{'Guileano Mello }` '}</h1>
-                    <p>| Desenvolvedor FrotnEnd |</p>
+                    <p>{'Olá, me chamo '}</p>
+                    <h1>{'Guileano Mello'}</h1>
+                    <p>| Desenvolvedor Full Stack |</p>
                 </div>
                 <div className='links'>
                     <div className='itens'>
