@@ -7,6 +7,17 @@ export const StyledSobre = styled.section`
     padding: 70px 15px;
     background-color: var(--color-grey-3);
     border-bottom: 2px solid var(--color-blue);
+    padding-top: 100px;
+
+    
+    h1{
+        color: var(--color-blue);
+        text-decoration: underline;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 500;
+        font-family: Aboreto;
+    }
 
     div {
         padding: 50px;

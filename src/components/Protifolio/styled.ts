@@ -11,6 +11,16 @@ export const StyledPortifolio = styled.section`
     padding-bottom: 70px;
     border-bottom: 2px solid var(--color-blue);
 
+    h1{
+        color: var(--color-blue);
+        text-decoration: underline;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 500;
+        font-family: Aboreto;
+        margin-bottom: 50px;
+    }
+
     .container {
         display: flex;
         align-items: center;

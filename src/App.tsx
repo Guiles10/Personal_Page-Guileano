@@ -1,3 +1,4 @@
+import { Experiencia } from './components/Experiencias'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Inicio } from './components/Inicio'
@@ -13,6 +14,7 @@ function App() {
   const inicioRef = useRef(null);
   const sobreRef = useRef(null);
   const techRef= useRef(null);
+  const expRef = useRef(null);
   const portifolioRef = useRef(null);
 
   const handleClick = (ref: any) => {
@@ -26,10 +28,11 @@ function App() {
     <>
       <main>
         <StyledGlobal />
-        <Header handleClick={handleClick} inicioRef={inicioRef} sobreRef={sobreRef} techRef={techRef} portifolioRef={portifolioRef}/>
+        <Header handleClick={handleClick} inicioRef={inicioRef} sobreRef={sobreRef} techRef={techRef} portifolioRef={portifolioRef} expRef={expRef}/>
         <Inicio inicioRef={inicioRef}/>
         <Sobre sobreRef={sobreRef}/>
         <Tecnologias techRef={techRef}/>
+        <Experiencia techRef={expRef}/>
         <Portifolio portifolioRef={portifolioRef}/>
         <Footer />
       </main>

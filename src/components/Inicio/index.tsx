@@ -25,7 +25,7 @@ export const Inicio = ({ inicioRef }: any) => {
                     </div>
                     <div className='itens'>
                         <AiOutlineFileText />
-                        <a target="_blank" href='https://drive.google.com/file/d/1Nc9YInHWMmwzXHDbclQFo2IzvxbGj5BR/view?usp=share_link'>Currículo</a>
+                        <a target="_blank" href='https://drive.google.com/file/d/1vYxN9ptuKnAWd6vP7OWFtm_H-Cfc2iPX/view?usp=share_link'>Currículo</a>
                     </div>
                     <div className='itens'>
                         <HiOutlineMailOpen />

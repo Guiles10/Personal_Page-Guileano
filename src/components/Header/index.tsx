@@ -4,7 +4,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react'
 
 
-export const Header = ({ handleClick, inicioRef, sobreRef, techRef, portifolioRef }: any)  => {
+export const Header = ({ handleClick, inicioRef, sobreRef, techRef, portifolioRef, expRef }: any)  => {
 
     const [active, setActive] = useState(false)
 
@@ -23,6 +23,7 @@ export const Header = ({ handleClick, inicioRef, sobreRef, techRef, portifolioRe
                    <li className='navIten'><a href='#inicio' onClick={() => handleClick(inicioRef)}>Inicio</a></li>
                    <li className='navIten'><a href='#sobre' onClick={() => handleClick(sobreRef)}>Sobre Mim</a></li>
                    <li className='navIten'><a href='#tech' onClick={() => handleClick(techRef)}>Hard Skills</a></li>
+                   <li className='navIten'><a href='#experiencia' onClick={() => handleClick(expRef)} >Experiencias</a></li>
                    <li className='navIten'><a href='#portifolio' onClick={() => handleClick(portifolioRef)} >Portfolio</a></li>
                 </ul> 
             </div>

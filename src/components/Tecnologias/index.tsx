@@ -18,6 +18,7 @@ export const Tecnologias = ({ techRef }: any) => {
     
     return(
         <StyledTech id='tech' ref={techRef}>
+            <h1>Hard Skills</h1>
             <div className="container">
                 <div className="card">
                     <img src={VSCode} alt="" />
