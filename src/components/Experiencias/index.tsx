@@ -17,14 +17,14 @@ export const Experiencia = ({ expRef }: any) => {
                     <p className="pComp"><small className="smallComp">Competências:</small> Git | GitHub | React | Typescript | JavaScript | CSS | Insomnia | API's</p>
                 </div>  
 
-                <div className="DivKenzie">
+                {/* <div className="DivKenzie">
                     <h2>Kenzie Academy Brasil <small>| junho/2022 - junho/2023 |</small></h2>
                     <h3>Simulação de uma empreza real</h3>
                     <p>Durante o período de estudos na Kenzie, a metodologia de ensino é simula um ambiente de trabalho em uma empresa, separada por Sprints de 7 dias, onde tinha prazo para entrega de projetos, sendo avaliado qualidade, eficiência, boas práticas, lógica de programação, código legível...
 Praticamos também a interação com colegas e instrutores, tanto em trabalhos em equipe como consulta para resolver bugs e pensar em soluções eficientes e práticas, praticando habilidades comportamentais como liderança, comunicação, trabalho em equipe.
 </p>
                     <p className="pComp"><small className="smallComp">Competências:</small> HTML | CSS| React | Typescript | JavaScript | NodeJs | Git | GitHub | Insomnia | PostegreSQL | RestAPI | Express | Python | Django</p>
-                </div>   
+                </div>    */}
 
                 <div className="DivArion">
                     <h2>Produtora Arion <small>| março/2019 - janeiro/2023 |</small></h2>
