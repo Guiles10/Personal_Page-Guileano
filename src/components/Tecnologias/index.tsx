@@ -13,6 +13,9 @@ import EXPRESS from '../../assets/express.png'
 import PSQL from '../../assets/postegree sql.png'
 import PYTHON from '../../assets/python.png'
 import DJANGO from '../../assets/django.jpg'
+import cicd from '../../assets/cicd.svg'
+import next from '../../assets/nextJS.png'
+import scrum from '../../assets/scrum.webp'
 
 export const Tecnologias = ({ techRef }: any) => {
     
@@ -51,8 +54,23 @@ export const Tecnologias = ({ techRef }: any) => {
                 </div>
 
                 <div className="card">
+                    <img src={scrum} alt="" />
+                    <p>Scrum</p>
+                </div>
+
+                <div className="card">
                     <img src={NodeJS} alt="" />
                     <p>NodeJS</p>
+                </div>
+
+                <div className="card">
+                    <img src={next} alt="" />
+                    <p>NextJs</p>
+                </div>
+
+                <div className="card">
+                    <img src={cicd} alt="" />
+                    <p>CI/CD</p>
                 </div>
 
                 <div className="card">
