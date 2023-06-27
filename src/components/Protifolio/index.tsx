@@ -6,6 +6,9 @@ import NuKenzie from '../../assets/Nu Kenzie.png'
 import SearchAPI from '../../assets/Search API.png'
 import BANDKAMP from '../../assets/bandkamp.png'
 import KenzieBuster from '../../assets/Kenzie Buster Diagrama.png'
+import eCommerce from '../../assets/Diagrama E-commerce.png'
+import AccOrganized from '../../assets/AccOrganized Capa.png'
+import Pokedex from '../../assets/pokedex.png'
 
 export const Portifolio = ({ portifolioRef }: any) => {
     
@@ -61,6 +64,32 @@ export const Portifolio = ({ portifolioRef }: any) => {
                         <a href="https://github.com/Guiles10/m5-kenzie-buster-Guiles10" target="_blank" rel="noopener noreferrer">Git Hub</a>
                     </div>
                 </div>
+                <div className="card">
+                    <img src={eCommerce} alt="" />
+                    <div className="links">
+                        <p>eCommerce</p>
+                        <a href="https://github.com/Kenzie-Academy-Brasil-M5-T14-Grupo-42/Api_Django_Ecommerce" target="_blank" rel="noopener noreferrer">Git Hub</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={AccOrganized} alt="" />
+                    <div className="links">
+                        <p>Acc Organized</p>
+                        <a href="https://accorganized.vercel.app/login" target="_blank" rel="noopener noreferrer">Site</a>
+                        <a href="https://github.com/Guiles10/ProjetoFullStack-Front-End-Guiles10" target="_blank" rel="noopener noreferrer">Git Hub Front</a>
+                        <a href="https://github.com/Guiles10/ProjetoFullStack-BackEnd-Guiles" target="_blank" rel="noopener noreferrer">Git Hub Back</a>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src={Pokedex} alt="" />
+                    <div className="links">
+                        <p>Pokedex</p>
+                        <a href="https://pokedex-768yf4ix8-guiles.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
+                        <a href="https://github.com/Guiles10/pokedex_fidelizou.me" target="_blank" rel="noopener noreferrer">Git Hub</a>
+                    </div>
+                </div>
+                
             </div>
         </StyledPortifolio>
     )

@@ -16,6 +16,8 @@ import DJANGO from '../../assets/django.jpg'
 import cicd from '../../assets/cicd.svg'
 import next from '../../assets/nextJS.png'
 import scrum from '../../assets/scrum.webp'
+import Nest from '../../assets/nestjs.png'
+import vuejs from '../../assets/vuejs.png'
 
 export const Tecnologias = ({ techRef }: any) => {
     
@@ -69,6 +71,11 @@ export const Tecnologias = ({ techRef }: any) => {
                 </div>
 
                 <div className="card">
+                    <img src={Nest} alt="" />
+                    <p>NestJs</p>
+                </div>
+
+                <div className="card">
                     <img src={cicd} alt="" />
                     <p>CI/CD</p>
                 </div>
@@ -106,6 +113,11 @@ export const Tecnologias = ({ techRef }: any) => {
                 <div className="card">
                     <img src={DJANGO} alt="" />
                     <p>Django</p>
+                </div>
+
+                <div className="card">
+                    <img src={vuejs} alt="" />
+                    <p>Vue.JS</p>
                 </div>
 
             </div>
