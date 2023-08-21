@@ -10,9 +10,10 @@ export const StyledHeader = styled.section`
     background-color: var(--color-grey-3);
     border-bottom: 2px solid var(--color-blue);
     z-index: 10;
+    margin: 0 auto;
 
     display: flex;
-    -webkit-box-pack: center;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -45,7 +46,7 @@ export const StyledHeader = styled.section`
         scroll-behavior: smooth;
     }
     .navDesktop > ul > li > a:hover{
-        font-size: 16px;
+        transform: scale(1.2);
         text-decoration: underline;
         color: var(--color-blue);
         padding: 5px;
@@ -99,6 +100,7 @@ export const StyledHeader = styled.section`
         }
         .navMobile > ul > li > a {
             font-size: 18px;
+            font-weight: 600;
             width: 100px;
             color: var(--color-grey-0);
             text-decoration: none;
@@ -107,9 +109,9 @@ export const StyledHeader = styled.section`
             scroll-behavior: smooth;
         }
         .navMobile > ul > li > a:hover{
-            font-size: 18px;
+            transform: scale(1.2);
             text-decoration: underline;
-            color: var(--color-blue);
+            /* color: var(--color-blue); */
             border-radius: 5px;
         }
     }

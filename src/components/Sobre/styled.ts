@@ -8,6 +8,7 @@ export const StyledSobre = styled.section`
     background-color: var(--color-grey-3);
     border-bottom: 2px solid var(--color-blue);
     padding-top: 100px;
+    margin: 0 auto;
 
     
     h1{
@@ -25,8 +26,8 @@ export const StyledSobre = styled.section`
 
     p{
         color: white;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 22px;
+        line-height: 35px;
         font-weight: 400;
         font-family: Aboreto;
         margin-bottom: 20px;

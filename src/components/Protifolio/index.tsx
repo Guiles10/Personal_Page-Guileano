@@ -16,6 +16,7 @@ export const Portifolio = ({ portifolioRef }: any) => {
         <StyledPortifolio id='portifolio' ref={portifolioRef}>
             <h1>Projetos Realizados</h1>
             <div className="container">
+                
                 <div className="card">
                     <img src={Hamburgueria} alt="" />
                     <div className="links">
@@ -24,6 +25,7 @@ export const Portifolio = ({ portifolioRef }: any) => {
                         <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-2.0-guiles10" target="_blank" rel="noopener noreferrer">Git Hub</a>
                     </div>
                 </div>
+
                 <div className="card">
                     <img src={KenzieHub} alt="" />
                     <div className="links">

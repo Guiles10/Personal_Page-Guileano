@@ -1,21 +1,13 @@
 import styled from 'styled-components';
 
-
-export const StyledInicio = styled.section`
-    max-width: 1200px;
+export const StyledsecInicio = styled.section`
     width: 100%;
-    height: 550px;
-    margin-top: 100px;
-    margin: 0 auto;
-    padding: 15px;
-    border-top: 2px solid var(--color-gray-1);
-    border-bottom: 2px solid var(--color-blue);
-    background-image: url('https://www.melhoresdestinos.com.br/wp-content/uploads/2021/04/highway-one-california-estrada-mais-bonita.jpeg');
+    background-image: url('https://res.cloudinary.com/dda5gnliu/image/upload/v1692640226/ocs9kqrscdnp5yozar9w.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
-    position: relative;
+    position: relative; 
 
     ::before {
         content: '';
@@ -27,7 +19,18 @@ export const StyledInicio = styled.section`
         background-color: rgba(0, 0, 0, 0.8);
         z-index: -1;
     }
+`
 
+export const StyledInicio = styled.section`
+    max-width: 1200px;
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+    margin: 0 auto;
+    padding: 15px;
+    border-top: 2px solid var(--color-gray-1);
+    border-bottom: 2px solid var(--color-blue);
+    
 
     .container {
         display: flex;
