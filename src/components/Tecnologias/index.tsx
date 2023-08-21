@@ -119,7 +119,6 @@ export const Tecnologias = ({ techRef }: any) => {
                     <img src={vuejs} alt="" />
                     <p>Vue.JS</p>
                 </div>
-
             </div>
         </StyledTech>
     )

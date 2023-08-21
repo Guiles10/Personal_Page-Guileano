@@ -7,6 +7,7 @@ export const StyledExp = styled.section`
     padding: 100px 15px;
     background-color: var(--color-grey-3);
     border-bottom: 2px solid var(--color-blue);
+    margin: 0 auto;
 
     h1{
         color: var(--color-blue);

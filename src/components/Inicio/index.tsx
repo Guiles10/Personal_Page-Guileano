@@ -1,4 +1,4 @@
-import { StyledInicio } from './styled'
+import { StyledInicio, StyledsecInicio } from './styled'
 import { ImLinkedin } from 'react-icons/im';
 import { BsGithub } from 'react-icons/bs';
 import { HiOutlineMailOpen } from 'react-icons/hi';
@@ -7,6 +7,7 @@ import { AiOutlineFileText } from 'react-icons/ai';
 export const Inicio = ({ inicioRef }: any) => {
     
     return(
+        <StyledsecInicio>
         <StyledInicio id='inicio' ref={inicioRef}>
             <div className='container'>
                 <div className='info'>
@@ -34,5 +35,6 @@ export const Inicio = ({ inicioRef }: any) => {
                 </div>
             </div>
         </StyledInicio>
+        </StyledsecInicio>
     )
 }

@@ -27,14 +27,14 @@ function App() {
   return (
     <>
       <main>
-        <StyledGlobal />
-        <Header handleClick={handleClick} inicioRef={inicioRef} sobreRef={sobreRef} techRef={techRef} portifolioRef={portifolioRef} expRef={expRef}/>
-        <Inicio inicioRef={inicioRef}/>
-        <Sobre sobreRef={sobreRef}/>
-        <Tecnologias techRef={techRef}/>
-        <Experiencia techRef={expRef}/>
-        <Portifolio portifolioRef={portifolioRef}/>
-        <Footer />
+          <StyledGlobal />
+          <Header handleClick={handleClick} inicioRef={inicioRef} sobreRef={sobreRef} techRef={techRef} portifolioRef={portifolioRef} expRef={expRef}/>
+          <Inicio inicioRef={inicioRef}/>
+          <Sobre sobreRef={sobreRef}/>
+          <Tecnologias techRef={techRef}/>
+          <Experiencia techRef={expRef}/>
+          <Portifolio portifolioRef={portifolioRef}/>
+          <Footer />
       </main>
     </>
   )

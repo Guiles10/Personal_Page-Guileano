@@ -9,11 +9,10 @@ export const StyledGlobal = createGlobalStyle`
     }
 
     main {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        border-left: 2px solid var(--color-blue);
-        border-right: 2px solid var(--color-blue);
-        box-shadow: 0px 0px 500px 200px var(--color-grey-2);
+    align-items: center;
     }
 
     button{ 
@@ -21,7 +20,7 @@ export const StyledGlobal = createGlobalStyle`
     }
 
     #root{ 
-        max-width: 1280px;
+        background-color: var(--color-grey-3);
         width: 100%;
         margin: 0 auto;
 
